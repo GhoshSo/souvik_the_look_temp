@@ -30,7 +30,7 @@ view: order_items {
     timeframes: [raw, time, date, week, month, quarter, year]
     sql: ${TABLE}.returned_at ;;
   }
-############ This Comment is added by Souvik at line 33, order_itmes view
+############ Comment_Deleted
   dimension: sale_price {
     type: number
     sql: ${TABLE}.sale_price ;;
