@@ -21,6 +21,8 @@ view: order_items {
     type: string
     sql: ${TABLE}.phone ;;
   }
+
+  ### Souvik added this line
   dimension: phones {
     type: string
     sql: ${TABLE}.phones ;;
